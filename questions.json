@@ -1,0 +1,282 @@
+[
+  {
+    "pergunta": "Quem é o criador da ferramenta de versionamento de código open-source Git?",
+    "opcoes": {
+      "A": "Bill Gates",
+      "B": "Guido van Rossum",
+      "C": "James Gosling",
+      "D": "Linus Torvalds"
+    },
+    "resposta_correta": "D"
+  },
+  {
+    "pergunta": "Qual o nome do criador do sistema operacional Linux?",
+    "opcoes": {
+      "A": "Linus Torvalds",
+      "B": "Steve Jobs",
+      "C": "Richard Stallman",
+      "D": "Ken Thompson"
+    },
+    "resposta_correta": "A"
+  },
+  {
+    "pergunta": "Quem é o criador da linguagem de programação Python?",
+    "opcoes": {
+      "A": "Bjarne Stroustrup",
+      "B": "Guido van Rossum",
+      "C": "Dennis Ritchie",
+      "D": "Larry Wall"
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "pergunta": "Quem é considerado o 'pai da computação' por seu trabalho na Máquina Analítica?",
+    "opcoes": {
+      "A": "Alan Turing",
+      "B": "John von Neumann",
+      "C": "Charles Babbage",
+      "D": "Thomas Edison"
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "pergunta": "Qual o nome da primeira programadora de computadores da história, conhecida por seu trabalho na Máquina Analítica de Babbage?",
+    "opcoes": {
+      "A": "Grace Hopper",
+      "B": "Ada Lovelace",
+      "C": "Hedy Lamarr",
+      "D": "Marie Curie"
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "pergunta": "Qual empresa criou a linguagem de programação Java?",
+    "opcoes": {
+      "A": "Microsoft",
+      "B": "Apple",
+      "C": "IBM",
+      "D": "Sun Microsystems"
+    },
+    "resposta_correta": "D"
+  },
+  {
+    "pergunta": "O que significa a sigla 'HTTP'?",
+    "opcoes": {
+      "A": "HyperText Transfer Protocol",
+      "B": "High-Level Text Translation Protocol",
+      "C": "Hyperlink Transfer Test Protocol",
+      "D": "Home Terminal Transfer Policy"
+    },
+    "resposta_correta": "A"
+  },
+  {
+    "pergunta": "O que significa a sigla 'SQL'?",
+    "opcoes": {
+      "A": "Simple Query Language",
+      "B": "Structured Query Language",
+      "C": "Server Query Logic",
+      "D": "System Quota Limit"
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "pergunta": "Qual foi a rede precursora da Internet, desenvolvida pela ARPA nos EUA?",
+    "opcoes": {
+      "A": "NSFNET",
+      "B": "ETHERNET",
+      "C": "ARPANET",
+      "D": "TELENET"
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "pergunta": "Qual modelo teórico de computação envolve uma 'máquina' que lê e escreve símbolos em uma fita infinita?",
+    "opcoes": {
+      "A": "Máquina de Von Neumann",
+      "B": "Máquina de Turing",
+      "C": "Máquina de Babbage",
+      "D": "Máquina Enigma"
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "pergunta": "O que significa 'OSI' no contexto do 'Modelo OSI' de redes?",
+    "opcoes": {
+      "A": "Open Source Initiative",
+      "B": "Operating System Interface",
+      "C": "Open Systems Interconnection",
+      "D": "Optical Server Infrastructure"
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "pergunta": "Qual desses NÃO é um pilar da Programação Orientada a Objetos (OOP)?",
+    "opcoes": {
+      "A": "Herança",
+      "B": "Polimorfismo",
+      "C": "Variáveis Globais",
+      "D": "Encapsulamento"
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "pergunta": "Quem é o criador da World Wide Web (WWW)?",
+    "opcoes": {
+      "A": "Tim Berners-Lee",
+      "B": "Marc Andreessen",
+      "C": "Vint Cerf",
+      "D": "Robert Kahn"
+    },
+    "resposta_correta": "A"
+  },
+  {
+    "pergunta": "Qual o nome do projeto iniciado por Richard Stallman que visa criar um sistema operacional totalmente livre?",
+    "opcoes": {
+      "A": "Linux",
+      "B": "GNU",
+      "C": "FreeBSD",
+      "D": "Minix"
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "pergunta": "Qual lei empírica, formulada por um cofundador da Intel, previa que o número de transistores em um chip dobraria a cada ~2 anos?",
+    "opcoes": {
+      "A": "Lei de Moore",
+      "B": "Lei de Amdahl",
+      "C": "Lei de Metcalfe",
+      "D": "Lei de Gates"
+    },
+    "resposta_correta": "A"
+  },
+  {
+    "pergunta": "Quem é conhecido como o 'pai do modelo relacional' para gerenciamento de banco de dados?",
+    "opcoes": {
+      "A": "Larry Ellison",
+      "B": "Michael Stonebraker",
+      "C": "Edgar F. Codd",
+      "D": "Charles Bachman"
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "pergunta": "Qual o nome do cientista da computação que cunhou o termo 'Inteligência Artificial' em 1956?",
+    "opcoes": {
+      "A": "Alan Turing",
+      "B": "Marvin Minsky",
+      "C": "Herbert A. Simon",
+      "D": "John McCarthy"
+    },
+    "resposta_correta": "D"
+  },
+  {
+    "pergunta": "O que significa a sigla 'FSF' no contexto de software?",
+    "opcoes": {
+      "A": "Free Software Foundation",
+      "B": "File System Format",
+      "C": "Fast Server Framework",
+      "D": "Full-Stack Foundation"
+    },
+    "resposta_correta": "A"
+  },
+  {
+    "pergunta": "Qual foi a primeira linguagem de programação de alto nível comercialmente bem-sucedida?",
+    "opcoes": {
+      "A": "COBOL",
+      "B": "LISP",
+      "C": "BASIC",
+      "D": "FORTRAN"
+    },
+    "resposta_correta": "D"
+  },
+  {
+    "pergunta": "Qual almirante da Marinha dos EUA e pioneira da computação ajudou a desenvolver o COBOL e cunhou o termo 'bug' (relatando uma mariposa real)?",
+    "opcoes": {
+      "A": "Ada Lovelace",
+      "B": "Hedy Lamarr",
+      "C": "Grace Hopper",
+      "D": "Katherine Johnson"
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "pergunta": "A 'Filosofia Unix' enfatiza a criação de programas que fazem uma coisa e a fazem bem. Qual desses *NÃO* é um pilar dessa filosofia?",
+    "opcoes": {
+      "A": "Tudo é um arquivo.",
+      "B": "Escreva programas que trabalhem juntos.",
+      "C": "Prefira interfaces gráficas a linhas de comando.",
+      "D": "Escreva programas que façam uma coisa só."
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "pergunta": "Qual foi o bug de computador que causou pânico mundial na virada de 1999 para 2000?",
+    "opcoes": {
+      "A": "O bug 'Heartbleed'",
+      "B": "O bug 'Y2K' (Millennium Bug)",
+      "C": "O vírus 'ILOVEYOU'",
+      "D": "O bug da divisão do Pentium"
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "pergunta": "Qual o nome do algoritmo de ranking de páginas, pilar fundador do Google, nomeado em homenagem a um de seus fundadores?",
+    "opcoes": {
+      "A": "QuickSort",
+      "B": "Dijkstra",
+      "C": "PageRank",
+      "D": "AdRank"
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "pergunta": "Em redes, o que significa 'DNS'?",
+    "opcoes": {
+      "A": "Dynamic Network Service",
+      "B": "Domain Name System",
+      "C": "Data Naming Standard",
+      "D": "Digital Naming Service"
+    },
+    "resposta_correta": "B"
+  },
+  {
+    "pergunta": "Qual empresa desenvolveu o primeiro microprocessador comercial, o Intel 4004?",
+    "opcoes": {
+      "A": "IBM",
+      "B": "AMD",
+      "C": "Intel",
+      "D": "Texas Instruments"
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "pergunta": "Qual desses protocolos é 'stateless' (não guarda estado) por natureza, sendo a base da Web?",
+    "opcoes": {
+      "A": "FTP",
+      "B": "TCP",
+      "C": "SSH",
+      "D": "HTTP"
+    },
+    "resposta_correta": "D"
+  },
+  {
+    "pergunta": "Qual foi o primeiro 'Web Browser' gráfico popularizado?",
+    "opcoes": {
+      "A": "Internet Explorer",
+      "B": "Netscape Navigator",
+      "C": "Mosaic",
+      "D": "Opera"
+    },
+    "resposta_correta": "C"
+  },
+  {
+    "pergunta": "O que significa 'API' no desenvolvimento de software?",
+    "opcoes": {
+      "A": "Advanced Programming Interface",
+      "B": "Application Programming Interface",
+      "C": "Automated Protocol Interaction",
+      "D": "Application Process Integration"
+    },
+    "resposta_correta": "B"
+  }
+]
