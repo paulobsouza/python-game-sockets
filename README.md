@@ -29,6 +29,7 @@ Este projeto foi desenvolvido para aplicar e demonstrar os seguintes conceitos:
     * `queue` (para sincronização entre threads)
     * `random` (para rolar dados e selecionar perguntas)
     * `time` (para pausas entre os turnos)
+    * `Tkinter` (para desenvolvimento da GUI do cliente)
 
 ## Estrutura dos Arquivos
 
@@ -110,4 +111,4 @@ O servidor é o "cérebro" do jogo e a fonte da verdade. Ele gerencia o estado d
     * Se sim, ele extrai a mensagem, a decodifica de JSON e a processa (exibe na tela).
     * Se a mensagem for do tipo `PERGUNTA`, ele pausa, solicita um `input()` do usuário e envia a resposta de volta ao servidor (também com um `\n`).
     * Se for `STATUS` ou `AGUARDE`, apenas exibe a mensagem.
-    * Se for `FIM`, exibe o vencedor e enc
+    * Se for `FIM`, exibe o vencedor e encerra.
