@@ -78,7 +78,7 @@ python client.py
 
 Assim que o Jogador 2 se conectar, o jogo começará automaticamente em todas as três janelas.
 
-## 🏛️ Arquitetura Detalhada
+## Arquitetura Detalhada
 
 ### Servidor (`server.py`)
 
