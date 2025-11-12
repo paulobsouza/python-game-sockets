@@ -19,7 +19,7 @@ Este projeto foi desenvolvido para aplicar e demonstrar os seguintes conceitos:
 * **Sincronização de Threads:** Uso de `queue.Queue` para comunicação segura entre a thread de escuta e a thread de jogo, e `threading.Event` para sinalizar o encerramento do jogo para todas as threads ativas.
 * **Protocolo de Comunicação:** Definição de um protocolo simples baseado em **JSON** para serializar e desserializar mensagens entre cliente e servidor.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Python**
 * Bibliotecas Nativas do Python:
