@@ -53,21 +53,18 @@ class GameClient(tk.Tk):
             button = tk.Button(
                 self.button_frame,
                 text=option,
-                width=15,
                 font=("Helvetica", 12, "bold"),
+                wraplength=280,
+                height=3,
+                justify="center",
                 command=lambda opt=option: self.send_answer(opt),
             )
+
             button.grid(row=i // 2, column=i % 2, padx=5, pady=5)
             self.buttons[option] = button
-
         self.set_buttons_state(False)
 
         try:
-            # Pede o nome ao usuário (opcional, mas legal para o placar depois)
-            # self.player_name = simpledialog.askstring("Nome", "Qual o seu nome?", parent=self)
-            # if not self.player_name:
-            #     self.player_name = "JogadorAnônimo"
-
             self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             self.sock.connect((HOST, PORT))
             self.add_log(f"Conectado ao servidor do jogo em {HOST}:{PORT}")
