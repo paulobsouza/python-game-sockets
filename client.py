@@ -9,13 +9,11 @@ HOST = "localhost"
 PORT = 8788
 BUFFER_SIZE = 2048
 
-# --- CONFIGURAÇÕES DE ESTILO ---
 BACKGROUND_COLOR = "#FBEAEB"  # Rosa pálido
 PRIMARY_COLOR = "#FF69B4"  # Rosa Choque (para destaque)
 SECONDARY_COLOR = "#D8BFD8" # Lavanda (para botões)
 FONT_DEFAULT = ("Helvetica", 12)
 FONT_TITLE = ("Helvetica", 14, "bold")
-# --- FIM CONFIGURAÇÕES DE ESTILO ---
 
 
 class GameClient(tk.Tk):
@@ -24,7 +22,7 @@ class GameClient(tk.Tk):
 
         self.title("Jogo de Tabuleiro - Quiz de TI")
         self.geometry("600x650")
-        self.configure(bg=BACKGROUND_COLOR) # Cor de fundo da janela
+        self.configure(bg=BACKGROUND_COLOR) 
 
         self.incoming_queue = queue.Queue()
 
@@ -33,21 +31,19 @@ class GameClient(tk.Tk):
         )
         self.status_label.pack()
 
-        # Área de Log
         self.log_area = scrolledtext.ScrolledText(
             self, 
             state="disabled", 
             height=15, 
             width=70, 
             font=("Consolas", 10), 
-            bg="#FFFFFF", # Fundo branco para o log
+            bg="#FFFFFF", 
             fg="#333333",
             relief=tk.FLAT,
             bd=5
         )
         self.log_area.pack(pady=5, padx=10)
 
-        # Frame da Pergunta
         self.question_frame = tk.LabelFrame(
             self, 
             text="Pergunta", 
@@ -55,7 +51,7 @@ class GameClient(tk.Tk):
             padx=10, 
             pady=10,
             bg=BACKGROUND_COLOR, 
-            fg="#6A5ACD", # Roxo sutil para o título do frame
+            fg="#6A5ACD",
             relief=tk.GROOVE 
         )
         self.question_frame.pack(pady=10, padx=10, fill="x")
@@ -73,7 +69,6 @@ class GameClient(tk.Tk):
         self.dado_label = tk.Label(self.question_frame, text="", font=("Helvetica", 10), bg=BACKGROUND_COLOR)
         self.dado_label.pack()
 
-        # Frame dos Botões de Resposta
         self.button_frame = tk.Frame(self, bg=BACKGROUND_COLOR)
         self.button_frame.pack(pady=15)
 
@@ -93,16 +88,16 @@ class GameClient(tk.Tk):
                 wraplength=280,
                 height=3,
                 justify="center",
-                bg=color, # Cor de fundo dos botões
-                fg="#FFFFFF", # Texto branco
-                activebackground=PRIMARY_COLOR, # Cor ao clicar
+                bg=color,
+                fg="#FFFFFF", 
+                activebackground=PRIMARY_COLOR, 
                 activeforeground="#FFFFFF",
-                relief=tk.RAISED, # Simula bordas arredondadas (Raised/Sunken são os melhores no Tkinter)
-                bd=3, # Espessura da borda
+                relief=tk.RAISED, 
+                bd=3, 
                 command=lambda opt=option: self.send_answer(opt),
             )
 
-            # Posicionamento dos botões (2x2)
+           
             button.grid(row=i // 2, column=i % 2, padx=10, pady=10, sticky="nsew")
             self.button_frame.grid_columnconfigure(i % 2, weight=1)
             self.buttons[option] = button
@@ -121,7 +116,7 @@ class GameClient(tk.Tk):
             )
             self.network_thread.start()
 
-            # Inicia o loop para processar mensagens da fila (necessário para Tkinter)
+    
             self.process_incoming_messages()
 
         except Exception as e:
@@ -160,7 +155,6 @@ class GameClient(tk.Tk):
     def listen_for_messages(self):
         while True:
             try:
-                # 1. Tenta encontrar o delimitador '\n' no buffer (Solução de Delimitação TCP)
                 try:
                     terminador_pos = self.buffer.index(b"\n")
                     message_data = self.buffer[:terminador_pos]
@@ -172,7 +166,6 @@ class GameClient(tk.Tk):
                     else:
                         continue
 
-                # 2. Se não encontrou '\n', lê mais dados do socket (Chamada bloqueante)
                 except ValueError:
                     data = self.sock.recv(BUFFER_SIZE)
                     if not data:
@@ -253,7 +246,6 @@ class GameClient(tk.Tk):
         except queue.Empty:
             pass
 
-        # Garante que esta função seja chamada novamente em 100ms
         self.after(100, self.process_incoming_messages)
 
 
